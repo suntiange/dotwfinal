@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spacecraft</title>
+    <style>
+      li{
+      display: inline-block;
+       }
+      ul,ol{
+      border-top: 1px solid grey;
+       }
+       h3{
+        font-weight:400;
+       }
+      #text, nav, header{
+        margin: 20px;
+       }
+  
+      #container {
+        perspective: 600px;
+        perspective-origin: center left;
+      }
+      #symbol {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -200;
+      }
+
+    </style>
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+
+  <body>
+    <div id="container">
+     <main>
+      <header>
+        <h1> New Territory: Spaceship</h1>
+      </header>
+      <nav>
+       <ul>
+         <li><a href="../">Home</a></li>
+         <li><a href="./">Spacecraft</a></li>
+         <li><a href="../page2/">Route</a></li>
+         <li><a href="../page3/">View</a></li>
+       </ul>
+      </nav>
+
+      <div id="symbol"></div>
+      <div id="text">
+       <h3> Width    : 305m</h3>
+       <h3> Height  : 145m</h3>
+       <h3> Length : 76m</h3>
+       <h3> Highest Speed : 150 km/s</h3>
+      </div>
+     </main>
+    </div>    
+    <script src="js/p5.min.js"></script>    
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/drawing.js"></script>
+  </body>
+</html>
