@@ -1,5 +1,6 @@
 # dotwfinal
 ## Drawing on the Web Final Project
+[link to my page](http://i6.cims.nyu.edu/~ts2555/dotw/final-project/)
 
 My final project will be three pages on a spaceship.  
 
