@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Route</title>
+  <link rel="stylesheet" type="text/css" href="route.css">
+  <link rel="stylesheet" type="text/css" href="../styles/main.css">
+</head>
+    <body>
+      <div id="container">
+       
+         <nav>
+           <ul>
+             <li><a href="../">Home</a></li>
+             <li><a href="../Page1">Spacecraft</a></li>
+             <li><a href="./">Route</a></li>
+             <li><a href="../page3/">View</a></li>
+           </ul>
+          </nav>
+          <div id="sun"></div>
+          <div id="mercury" class="orbit">
+            <div class="planet"></div> 
+          </div>  
+          <div id="venus" class="orbit">
+            <div class="planet"></div> 
+          </div>  
+          <div id="earth" class="orbit">
+            <div class="planet" id="init"></div> 
+          </div>  
+          <div id="mars" class="orbit">
+            <div class="planet"></div> 
+          </div>  
+          <div id="jupiter" class="orbit">
+            <div class="planet"></div> 
+          </div>  
+          <div id="saturn" class="orbit">
+            <div class="planet"></div> 
+          </div>  
+          <div id="uranus" class="orbit">
+            <div class="planet"></div> 
+          </div>  
+          <div id="neptune" class="orbit">
+            <div class="planet"></div> 
+          </div>  
+          <div id="pluto" class="orbit">
+            <div class="planet" id="final"></div> 
+          </div>  
+          <svg class="elements" id="spaceship"><use xlink:href="space-ship.svg#space-ship"/></svg>
+      </div>
+
+
+    <script src="route.js"></script>
+  </body>
+
+
+</html>
